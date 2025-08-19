@@ -1,0 +1,23 @@
+{
+  "prod": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-msjtechnologywebsite-prod-2d345-authRole",
+      "UnauthRoleArn": "arn:aws:iam::691554638096:role/amplify-msjtechnologywebsite-prod-2d345-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::691554638096:role/amplify-msjtechnologywebsite-prod-2d345-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-msjtechnologywebsite-prod-2d345-deployment",
+      "UnauthRoleName": "amplify-msjtechnologywebsite-prod-2d345-unauthRole",
+      "StackName": "amplify-msjtechnologywebsite-prod-2d345",
+      "StackId": "arn:aws:cloudformation:us-east-1:691554638096:stack/amplify-msjtechnologywebsite-prod-2d345/92803120-7ccd-11f0-a601-121db15cee41",
+      "AmplifyAppId": "dyney99p3nj0i"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "dyney99p3nj0i",
+          "type": "manual"
+        }
+      }
+    }
+  }
+}
