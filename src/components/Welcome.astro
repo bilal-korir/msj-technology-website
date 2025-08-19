@@ -28,6 +28,11 @@ import msjLogo from '../assets/msj-logo.jpg'
     </section>
   </main>
 
+  <div class="copyright">
+    <p>Shanghe Mashiji Automotive Electrical Appliance Co., Ltd. © 2025</p>
+    <p>商河马世基汽车电器有限公司 © 2025</p>
+  </div>
+
   <style>
     #background {
       position: fixed;
@@ -43,6 +48,7 @@ import msjLogo from '../assets/msj-logo.jpg'
       font-family: Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial,
         sans-serif;
       height: 100%;
+      position: relative;
     }
 
     main {
@@ -214,7 +220,34 @@ import msjLogo from '../assets/msj-logo.jpg'
       background-image: linear-gradient(to right, #4333d8, #f041ff, #d5cef5);
       background-clip: padding-box;
       padding: 2px;
-      /* width: 50%; */
+      max-width: 90%;
+    }
+
+    .copyright {
+      /* Center it at the bottom of the screen */
+      text-align: center;
+      font-size: 14px;
+      color: #6b7280;
+      /* margin-top: 16px; */
+      /* margin-bottom: 16px; */
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      /* width: 100%; */
+      padding-top: 20px;
+      padding-bottom: 20px;
+      background: rgba(255, 255, 255, 0.3);
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .copyright p {
+      margin: 0;
+      color: #111827;
+      font-size: 13px;
+      line-height: 1.5;
+      color: #6b7280;
+      /* font-weight: 500; */
     }
   </style>
 </div>
